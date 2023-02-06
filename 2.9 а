@@ -1,0 +1,7 @@
+import math
+print("Введите x")
+x=int(input())
+print("Введите y")
+y=int(input())
+z=2*x**3-3.44*x*y+2.3*x**2-7.1*x+2
+print("z =", z)
