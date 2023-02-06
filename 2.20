@@ -1,0 +1,15 @@
+import math
+print("Введите e")
+e=int(input())
+print("Введите f")
+f=int(input())
+print("Введите g")
+g=int(input())
+print("Введите h")
+h=int(input())
+a=math.sqrt((abs(e-3/f))**3+g)
+b=math.sin(e)+(math.cos(h))**2
+c=33*g/e*f-3
+print("a =", a)
+print("b =", b)
+print("c =", c)
