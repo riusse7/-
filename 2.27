@@ -1,0 +1,9 @@
+import math
+print("Введите основание трапеции a")
+a=int(input())
+print("Введите основание трапеции b")
+b=int(input())
+print("Введите высоту трапеции h")
+h=int(input())
+p=2*(math.sqrt((abs(a-b)/2)**2+h**2))+a+b
+print("Периметр =", p)
