@@ -1,0 +1,7 @@
+import math
+print("Введите объем тела v")
+v=int(input())
+print("Введите массу тела m")
+m=int(input())
+p=m/v
+print("Плотность =", p)
