@@ -1,0 +1,10 @@
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+c = int(input("Введите третье число: "))
+n = min(a, b, c)
+x = max(a, b, c)
+d = a + b + c - n - x
+print("Числа в порядке возрастания:")
+print(n)
+print(d)
+print(x)
