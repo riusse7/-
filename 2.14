@@ -1,0 +1,7 @@
+import math
+print("Введите катет треугольника a")
+a=int(input())
+print("Введите катет треугольника b")
+b=int(input())
+c=math.sqrt(a**2+b**2)
+print("Гипотенуза =", c)
