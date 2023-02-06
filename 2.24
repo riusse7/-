@@ -1,0 +1,13 @@
+import math
+print("Введите a")
+a=int(input())
+print("Введите b")
+b=int(input())
+x=a+b
+y=a-b
+f=a*b
+g=a/b
+print("Сумма =", x)
+print("Разность =", y)
+print("Произведение =", f)
+print("Частное =", g)
